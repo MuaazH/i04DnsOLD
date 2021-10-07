@@ -16,7 +16,7 @@ make release
 ```
 
 # New Version
-https://github.com/MuaazH/i04Dns (comming soon)
+https://github.com/MuaazH/i04Dns (coming soon)
 
 # License
 I have a Driving License
