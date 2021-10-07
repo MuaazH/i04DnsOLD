@@ -1,0 +1,44 @@
+
+######################
+#    OS Detection    #
+######################
+
+# MESSY & SHIT, BUT WORKS SO I WON'T FIX IT
+ifeq ($(OS),Windows_NT)
+	detected_OS := WINDOWS
+else
+	detected_OS := $(shell uname -s)
+endif
+
+ifeq ($(detected_OS),Darwin)  # Mac OS X
+	detected_OS := MAC
+endif
+
+ifeq ($(detected_OS),Linux)
+	detected_OS := LINUX
+endif
+
+ifeq ($(detected_OS),GNU)
+	detected_OS := LINUX
+endif
+
+ifeq ($(detected_OS),GNU/kFreeBSD)
+	detected_OS := LINUX
+endif
+
+ifeq ($(detected_OS),FreeBSD)
+	detected_OS := LINUX
+endif
+
+ifeq ($(detected_OS),NetBSD)
+	detected_OS := LINUX
+endif
+
+ifeq ($(detected_OS),DragonFly)
+	detected_OS := LINUX
+endif
+
+ifeq ($(detected_OS),Haiku)
+	detected_OS := LINUX
+endif
+

@@ -1,0 +1,427 @@
+
+dns_servers:
+
+		8.8.8.8
+		8.8.4.4
+		1.1.1.1
+		9.9.9.9
+		8.26.56.26
+;		195.98.79.117
+
+dns_ipv4_records:
+		www.i04.is            127.0.0.1
+
+dns_name_whitelist:
+
+		*zoom.us              ; zoom
+		*phicdn.net           ; zoom
+		apis.google.com
+		*clients*google.com
+		*android*google.com
+
+		;	Youtube
+		*youtube* 					; youtube
+		*ytimg*						; youtube image
+		*ytstatic*					; youtube
+
+		;	Google
+		large-uploads.l.google.com
+		appspot.l.google.com
+		apis.google.com
+		pki-goog.l.google.com
+		accounts-cctld.l.google.com
+		accounts.google.dz
+		gmail*
+		ajax.googleapis.com
+		*www3.l.google.com*			; google translation
+		www.googletagservices.com   ; for tags in websites
+		googleadapis.l.google.com
+		maps*google*
+		googleapis*
+		news.l.google.com
+		myactivity.google.com		;Google Account
+		history.l.google.com		;Google Account
+		mail-attachment.*			;Gmail
+		*googleusercontent*			;Gmail
+		*googlemail.*				;Gmail
+		plus.l.google.com
+		gstatic*
+		history.*google.com
+		myactivity.google.com
+		keyhole.l.google.com
+		chat-pa.clients*.google.com
+
+;		prod-tp.sumo.moz.works
+;		support.mozilla.org
+;		*addons*mozilla*
+		addons-cdn-geo.prod.mozaws.net
+		olympia.prod.mozaws.net
+		*awsdns*.com
+
+		community.jaspersoft.com
+
+		developer.mozilla.org		; docs
+		ftp.mozilla.org
+		fonts.*
+		font.*
+		addons.mozilla.org			;addons
+		olympia.prod.mozaws.net	;addons
+		addons-amo.cdn.mozilla.net	;addons
+		addons.cdn.mozilla.net		;addons
+
+dns_name_blacklist:
+
+		*hex-rays*
+		*.chartbeat.net
+		*.brave.com
+		*.appmeasurements*
+		*megambu*
+		*mixpanel.com
+		*haloway*
+		*xbox*
+		*.live.com
+		*visualstudio*
+		*vscode*
+		aka.ms
+
+		*.pxchk.net
+		*colorado.edu
+		www.trialpay.com
+		*westbyte.com
+		*vmware.com
+		*officeapps*
+		connectivitycheck.gstatic.com
+		*adobe.com					; Blocked for Photoshop Activation
+		ns-*.awsdns-*.co.uk	        ; Blocked for Photoshop Activation
+		api.typekit.com				; Blocked for Photoshop Activation
+;		*.dz
+		*visualstudio*
+		*accounts*youtube*			; Eat shit youtube
+;		*fbcdn*						; facebook
+;		*fbsbx*						; facebook CDN
+;		*fb.co*						; facebook CNAME
+;		*facebook*					; facebook
+		lookaside*
+		*push-browser*
+		*freefullversion*
+		*shiningmorning*
+		*co.jp*
+		*.ns.*
+		*.ns-*
+		*-ns-*
+		*-ns.*
+		*.ns_*
+		*_ns.*
+		*_ns-*
+		*_ns_*
+		*-ns_*
+		ns.*
+		ns0.*
+		ns1.*
+		ns2.*
+		ns3.*
+		ns4.*
+		ns5.*
+		ns6.*
+		ns7.*
+		ns8.*
+		ns9.*
+		ns10.*
+		ns11.*
+		ns12.*
+		ns13.*
+		ns14.*
+		ns15.*
+		ns16.*
+		ns17.*
+		ns18.*
+		ns19.*
+		*awsdns*
+		*advmaker*
+		*outdatedbrowser*
+		*exodus.desync.com*
+		*zer0day.ch*
+		*open.demonii.com*
+		*windows*
+		*microsoft*
+		*shield-normandy*
+		*appspot.com
+		*.symc
+		*adapf*
+		trck.*
+		*adexcha*
+		*rbxtrk*
+		*cloudconfig*google*
+		safebrowsing*google*com
+		*jasperstudio.sf.net*
+		*ubisoft*
+		*jaspersoft.com*
+		*jetbrains*
+		*intellij*
+		*phicdn.net*
+		*mozaws.net*
+		*doubleclick.net*
+		*akamaitechnologies*
+		*piriform*
+		*google*analytics*
+;		*id.google.com*
+		*clients*google*
+		*analytics*
+		*mozilla*
+		*easypdfcombine*
+		*adhit*
+		*mtalk*google.com*
+		updatesoft*
+		*updateflash*
+		*goodsite*
+		*goodplace*
+		*la.ustiming.org*
+		*mynewspepper*
+		*voluumtrk.com*
+		*liveinternet.ru*
+		*oncladrv.com*
+		*mgid.com*
+		*deloton.com*
+		*steepto*
+		*2mdnsys.com*
+		*voluumtrk.com*
+		*myway.com*
+		*olymptrade.com*
+		*binarybusinessbay*
+		*starzplay*
+		*rtmark.net*
+		dns.*
+		*ws*.rocks.io*
+		*api-ubiservices.ubi.com*
+		*windowsupdate*
+		*plus.google.com*
+;		*dl.google.com*
+		*taboola*
+		*.l.google*
+		*foxit*
+		*gannett*
+		*demdex.net*
+		*bouncex.net*
+		*scorecardresearch*
+		*summerhamster*
+		*update*kpzs.com*
+		*tags.tiqcdn.com*
+		*fra.sp-prod*
+		*bounceexchange*
+		*adservice*
+		*cent.spots.im*
+		*starzplay*
+		*syndicate*
+		*pagead*
+		*adrunnr*
+		*googlesyndication*
+		*adform.net*
+		*adthech*
+		*thetacdn*
+		*.adnxs*
+		*pubmatic*
+		*adsrvr*
+		*advert*
+		*dmros1.ysm*
+		*udc.*
+		*.btrll.com*
+		*flickr*
+		*geo.yahoo*
+		*analytics.*
+		*yahooapis*
+		*beap-bc.*
+		*pr-bh.ybp.*
+		*bidswitch*
+		*ucs.query.*
+		*free.fromdoctopdf.com*
+		*codeblocks*
+		*adstrades*
+		*pickaflick*
+		*aldtrax*
+		*clickconvertrepeat*
+;		*play.google.com*
+		*pushwoosh*
+;		*netbeans*
+		*blogs.apache.org*
+		*crashlytics.com
+		*profits.com
+		*mobtrks.com
+		*trck.me
+		*office*client*
+		*win*ipv6*
+		*pool*ntp*org*
+		*ml314.com*
+		*onclkds.com*
+		ads.*
+		*.ad
+		ad.*
+		*adsystem*
+		*ipv6*
+		*edgesuite.net*
+		*nsatc.net*
+		*msn.com*
+		*bing.com*
+		*edge*bing.com*
+		*delivery*microsoft.com*
+		*.nsatc.net*
+		*login.live.com*
+		*live.com*
+		*live.net*
+		*skyapi*
+		*skyprod*
+		*register.mesh.com*
+		*.windows.com
+		*onesettings*metron*nsatc.net*
+		*msdn.*
+		*microsoftupdate*
+		*adnexus.net*
+		*msecnd.*
+		*msft.net*
+		*bing.net*
+		*telemetry*
+		*telecommand*
+		*atdmt.com*
+		*mdn.net*
+		*analytic-google.com*
+		*at1antis*
+		*clix2themax*
+		*flashplayer*
+		*googleapps*
+		*open-office*
+		*analysis*
+		*analytics*
+		*zarget.com*
+		*cdn.zarget.com*
+		*adskeeper*
+		*datacollect*
+		event*
+		*visiblemeasures*
+		*mellowads.com*
+		*lifeadz.com*
+		ustat*
+		*batmobi*
+		*api.stats.appa*
+		*api5.batmobil.net*
+		*applog*
+		*bi-collector*
+		*lepodownload.mediatek.com*
+		*pixel.realclever.com*
+		*sdktm.w.inmobi.com*
+		*googletagservices*
+		*statcamp*
+		*api.ad*
+		banners.*
+		*banner.*
+		*clicktrack.*
+		mrs*
+		*propellerads*
+		*brightesttoupgrading*
+		*code.google.com*
+		*www.myget.org*
+		*api.google.com*
+		*www.msftncsi.com*
+		*croclix*
+		*mshome.net*
+		*firefox.com*
+		*opencandy.com*
+		*chrup*
+		*safeupdate*.biz
+		*adx.com
+		*logging*
+		*apis.google.com*
+		*ustiming*
+		*expertsmi*
+		*socialnewpages*
+		*lookaside*
+		*suggestqueries*
+		api*twitter*
+		*revcontent*
+		*jwpltx*
+		*disqusad*
+		*adsnative*
+		*adsco.*
+		*.ads-*
+		*-ads.*
+		*.ads.*
+		*-ads-*
+		*.ad-*
+		*-ad.*
+		*.ad.*
+		*-ad-*
+		*adsymptotic*
+		*popad*
+		*ads.com
+		*tagmanager*
+		*statcounter*
+		*addthis.com
+		gconnect.ubi.com
+		*dating*
+		*ubisoft*
+		*adsupply*
+		*4dsply*
+		utcnist.colorado.edu		; time sync bullshit
+		*symmetricom*				; time sync bullshit
+		*adtech*
+		*adserver*
+		*onclick*
+		app-measurement.com
+		*avrfreaks*
+		*siteintercept*
+		*qualtrics*
+		*metric*
+		*usertrust*
+		*trustarc*
+		*estrongs*
+		*monetiz*
+		*exdynsrv.com
+		*.moz.works
+		*click*
+		*adobe*
+		*jungloconding*				; minging website?
+		*toro-tags.com
+		*exercially.mobi*
+		*jungloconding.info
+		*hantinlethemsed.info
+		*boudja.com
+		*spotscenered*
+		*browser-update.org*
+		*pushwhy.com*
+		www.bet3*
+		*funtikapa*
+		*symcb.com
+		*symcd.com
+;		*.mojang.com				; minecraft
+;		*.minecraft.com				; minecraft
+		*internetdownloadmanager*
+		*tonec.com
+		*registeridm*
+		*azureedge.net
+		*.v0cdn.net
+		*.localdomain
+		mqtt-mini.facebook.com
+		*noxinfluencer.com
+
+		app.adjust.com
+		*nox.com					; nox
+		*yeshen.com					; nox
+		*.applinzi.com				; nox
+
+		inpagepush.com
+		*microsoft*
+		*.ms.*
+		live*
+		*windows*
+		*bing*
+		*adnxtr*
+		*analytics*
+		*smartadserver*
+		*detectportal*
+		*wowreality*
+		*caradstag*
+		*onstunkyr*
+		*doubleclick*
+		*advert*
+		ad.*
+		pagead.*
+		pagead2.*
+
